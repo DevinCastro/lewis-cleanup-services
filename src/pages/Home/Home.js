@@ -47,7 +47,7 @@ const Home = () => {
         <a name='services'></a>
         <div>
           <Jumbotron className="jumbotron text-center">
-            <h1>Services:</h1>
+            <h1>Services</h1>
             <Row>
               <Col md='4'>
                 <h1>Trash Removal</h1>
@@ -67,7 +67,7 @@ const Home = () => {
         <a name='gallery'></a>
         <div>
           <Jumbotron className="gallery text-center">
-            <h1>Photo Gallery:</h1>
+            <h1>Photo Gallery</h1>
             <Row>
               <Col md='4'>
                 <img className="photo" src={photo1} alt="photo"/>
@@ -107,6 +107,7 @@ const Home = () => {
 
       <a name='contact'></a>
       <div className="text-center">
+        <h1>Contact Us</h1>
         <p className="contact">
           Have a question about our services? To get a free quote, or if you have questions or special requests, just drop us a line. We look forward to serving you!
         </p>
