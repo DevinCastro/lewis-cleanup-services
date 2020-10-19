@@ -1,0 +1,70 @@
+body {
+  /* background-color: #100E17 !important; */
+  text-decoration: none !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  /* color: white !important; */
+}
+
+/* .navLogo {
+  width: 80px;
+  height: 80px;
+  padding-top: 0px;
+} */
+
+.myNav {
+  position: relative;
+  /* color: white; */
+  text-decoration: none;
+  margin: 5px;
+}
+
+.myNav::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  /* background-color: white; */
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.myNav:hover::before {
+  /* color: white; */
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.lewis {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.green {
+  margin-top: 100px;
+  background-color: rgb(17, 97, 17);
+  color: white;
+}
+
+.bio {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.aboutMe {
+  text-align: center;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+.jumbotron {
+  margin-top: -3rem;
+  margin-left: 100px;
+  margin-right: 100px;
+  /* background-color: #100E17; */
+  border: #ffffff solid 1px;
+  box-shadow: 0px 7px 15px 0px rgba(0, 0, 0, 0.75);
+}
