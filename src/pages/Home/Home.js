@@ -13,6 +13,7 @@ import photo6 from '../../lewisphotos/unnamed-6.jpg'
 import photo7 from '../../lewisphotos/unnamed-7.jpg'
 import photo8 from '../../lewisphotos/unnamed-8.jpg'
 import photo9 from '../../lewisphotos/unnamed-9.jpg'
+import Service from '../../components/Service'
 
 
 
@@ -39,7 +40,10 @@ const Home = () => {
         <div className="green text-center">
           <div className="bio">
             <h3>Serving All Your Cleanup Needs</h3>
-            <p className="aboutMe">Lewis Cleanup Services are a professional specialty cleaning company located in Menifee, CA.  We offer serveral different cleanup services with a focus in solar panel cleaning and pressure washing.  Our services also include: Trash removal, Window cleaning, Vacancy cleaning, Yard cleanup, Monthly yard maintenance until close of escrow or lease.
+            <p className="aboutMe">Lewis Clean-up Services is "Your One Stop Shop" for getting a home ready to market whether it be for sale or lease. We will come in and clear out any trash, junk or debris and haul it away. We will do interior cleaning, exterior cleaning, pressure washing, window cleaning, solar panel cleaning and give the yard a face lift and monthly yard maintenance until close of escrow or until it is leased.  
+            </p>
+            <h3>How We Got Started</h3>
+            <p className="aboutMe">Like many people, when the pandemic hit and me and my husband both lost our jobs, we knew we needed to hustle and get something going for ourselves. When I used to be a Brokers Assistant at a local Real Estate office for 7+ years, I had a side business cleaning vacant houses and window cleaning along with trash outs and yard cleanup getting the home ready for sale. I took that experience and created a broader business by adding Solar Panel Cleaning and Pressure Washing. While I was in the Real Estate Industry for 7+ years I learned a lot about what it takes to help a home sell faster and I have implimented that into turning what was once a side job, into our family's new career. We are a family owned and operated small business and we take pride in teaching our children the skills of hard work just as my father did with me and my siblings. In today's times, my husband and I want our children to be prepared for their future in the work force as we where for ours.
             </p>
           </div>
         </div>
@@ -50,7 +54,13 @@ const Home = () => {
             <h1>Services</h1>
             <Row>
               <Col md='4'>
-                <h1>Trash Removal</h1>
+                <Service 
+                name="Solar Panel Cleaning"
+                description="Cleaning at regular intervals prevents buildup of residue and keeps your panels operating optimally at all times"
+                moreDetails="Increases efficiency by 15-45%.   
+                Cleaning with pure water is one of the safest, most effective and fastest methods in professional solar cleaning. Demineralized water is obtained by one of the UNGER filter systems by deionization or reverse osmosis. Waterfed brushes loosen the dirt and remove it with the pure water.Services include: Cleaning each Solar Panel and the edges of each panel"
+                
+                />
               </Col>
               <Col md='4'>
                 <h1>Solar Panel Cleaning</h1>
