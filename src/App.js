@@ -28,7 +28,7 @@ const App = () => {
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
             <Nav className="mr-auto" navbar>
-              <NavItem>
+              {/* <NavItem>
                 <img
                   src={logo}
                   width="80"
@@ -37,7 +37,7 @@ const App = () => {
                   alt="React Bootstrap logo"
                   to="/"
                 />
-              </NavItem>
+              </NavItem> */}
               <NavItem>
                 <a className="myNav" href="#about">About Us</a>
               </NavItem>

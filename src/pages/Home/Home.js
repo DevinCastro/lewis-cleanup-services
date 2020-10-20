@@ -13,6 +13,13 @@ import photo6 from '../../lewisphotos/unnamed-6.jpg'
 import photo7 from '../../lewisphotos/unnamed-7.jpg'
 import photo8 from '../../lewisphotos/unnamed-8.jpg'
 import photo9 from '../../lewisphotos/unnamed-9.jpg'
+import photo10 from '../../lewisphotos/1.jpeg'
+import photo11 from '../../lewisphotos/2.jpeg'
+import photo12 from '../../lewisphotos/3.jpeg'
+import photo13 from '../../lewisphotos/4.jpeg'
+import photo14 from '../../lewisphotos/5.jpeg'
+import photo15 from '../../lewisphotos/6.jpeg'
+
 import Service from '../../components/Service'
 
 
@@ -33,7 +40,7 @@ const Home = () => {
         <div className="text-center">
 
           <img className="cleaner animate__animated animate__fadeIn" src={cleaner} alt="cleaner"/>
-          {/* <img src={solar} alt="cleaner"/> */}
+        
         </div>
 
         <a name='about'></a>
@@ -48,7 +55,7 @@ const Home = () => {
           </div>
         </div>
 
-        <a name='services'></a>
+        <a name='gallery'></a>
         <div>
           <Jumbotron className="jumbotron text-center">
             <h1>Services</h1>
@@ -57,23 +64,127 @@ const Home = () => {
                 <Service 
                 name="Solar Panel Cleaning"
                 description="Cleaning at regular intervals prevents buildup of residue and keeps your panels operating optimally at all times"
-                moreDetails="Increases efficiency by 15-45%.   
-                Cleaning with pure water is one of the safest, most effective and fastest methods in professional solar cleaning. Demineralized water is obtained by one of the UNGER filter systems by deionization or reverse osmosis. Waterfed brushes loosen the dirt and remove it with the pure water.Services include: Cleaning each Solar Panel and the edges of each panel"
-                
+                  moreDetails={['Increases efficiency by 15-45%.', <br />, <br />,'Cleaning with pure water is one of the safest, most effective and fastest methods in professional solar cleaning. Demineralized water is obtained by one of the UNGER filter systems by deionization or reverse osmosis. Waterfed brushes loosen the dirt and remove it with the pure water.Services include: Cleaning each Solar Panel and the edges of each panel']}
+                photo1={photo7}
+                photo2={photo8}
+                photo3={photo9}
                 />
               </Col>
               <Col md='4'>
-                <h1>Solar Panel Cleaning</h1>
+                <Service
+                  name="Pressure Washing"
+                  description="We are BIG on curb appeal. We want to help make your home stand out in the neighborhood when driving down the street with a sparkling appearance."
+                  moreDetails={["Services Include:", <br />, "Removal of built-up dirt, algae and mold", <br />, "Items include: (but not limited to)", < br />,
+                    "Siding", <br />, 
+                    "Driveways", <br />,
+                    "Sidewalks", <br />,
+                    "Walkways", <br />,
+                    "Pavers", <br />,
+                    "Porches", <br />,
+                    "Decks", < br />,
+                    "Fences", <br />,
+                    "Playground Equipment"]}
+                  photo1={photo12}
+                  photo2={photo13}
+                  photo3={photo14}
+                />
               </Col>
               <Col md='4'>
-                <h1>Pressure Washing</h1>
+                <Service
+                  name="Trash Removal"
+                  description="Let our team come in and remove that headache for you by clearing out your unwanted items or just hauling away built up trash and junk."
+                  moreDetails={["Services Include: (But not limited to)", <br />,
+                    "Foreclosure clean outs", <br />,
+                    "Small appliances", <br />,
+                    "General trash", <br />,
+                    "Household items", <br />,
+                    'Mattresses & box springs', <br />,
+                    'Carpet, padding & rugs', <br />, 
+                    'Glass', <br />, 
+                    'Exercise equipment', <br />, 
+                    'Bicyles', <br />, 
+                    'Yard debris (Tree trimmings)', <br />,
+                    'Green waste', <br />,
+                    'Construction debris', <br />,
+                    'Scrap Metal', <br />,
+                    'Old tools', <br />, <br />, 
+
+                    'NOTE: We do not remove hazardous waste such as (paint, thinners, oil and gas)']}
+                  photo1={photo1}
+                  photo2={photo2}
+                  photo3={photo4}
+                />
               </Col>
             </Row>
+
+
+            <Row>
+              <Col md='4'>
+                <Service
+                  name="Window Cleaning"
+                  description="It's said that windows are the eyes to the soul. You can tell a lot about a person by looking into their eyes. Therefore, windows are the eyes of the house. A lot is told about a house just by looking at the windows."
+                  moreDetails={['Service Includes:', <br/>,
+                    'Window screens are removed and cleaned.', <br/>,
+                    'Window pane cleaned both inside & out', <br />,
+                    'Tracks wiped out & sills wiped down', <br />,
+                    'Screens replaced', < br />, <br />, 
+
+                    'NOTE: We do not remove any screens that are affixed to the window by nails or screw'
+
+                ]}
+                  photo1={photo10}
+                  photo2={photo11}
+                  photo3={photo9}
+                />
+              </Col>
+              <Col md='4'>
+                <Service
+                  name="Vacant House Cleaning"
+                  description="Nothing is more welcoming to a potential buyer than walking into a house that smells and looks amazing."
+                  moreDetails={['Services Include:', <br/>,
+                    'Vacuum and sweep all floors', <br/>,
+                    'Wipe down baseboards throughout the house', <br />,
+                    'Scrub shower, bathtub & toilets', <br />,
+                    'Clean sinks and countertops', <br />,
+                    'Clean kitchen appliances', <br />,
+                    'Clean Ceiling fans', <br />,
+                    'Dust everything', <br />,
+
+                    "Prices vary depending on size and condition it's in.", <br />, <br />,
+
+                    "Extra Charge: GARAGE - Remove cobwebs, sweep, wipe out cabinets and shelves and hose down"]}
+                  photo1={photo7}
+                  photo2={photo8}
+                  photo3={photo9}
+                />
+              </Col>
+              <Col md='4'>
+                <Service
+                  name="Yard Cleanup & Monthly Maintenance"
+                  description="Giving  your yard a light facelift brings curb appeal to your home until close of escrow or lease."
+                  moreDetails={['Services Include:', <br/>,
+                    'Raking up leaves', <br />,
+                    'Pruning', <br />,
+                    'Trim hedges', <br />,
+                    'Cleaning up branches', <br />,
+                    'Cleaning up lawn debris', <br />,
+                    'Cutting the grass']}
+                  photo1={photo7}
+                  photo2={photo8}
+                  photo3={photo9}
+                />
+              </Col>
+            </Row>
+
+
+
+
+
 
           </Jumbotron>
         </div>
 
-
+{/* 
         <a name='gallery'></a>
         <div>
           <Jumbotron className="gallery text-center">
@@ -113,10 +224,10 @@ const Home = () => {
             </Row>
 
           </Jumbotron>
-        </div>
+        </div> */}
 
       <a name='contact'></a>
-      <div className="text-center">
+      <div className="green text-center">
         <h1>Contact Us</h1>
         <p className="contact">
           Have a question about our services? To get a free quote, or if you have questions or special requests, just drop us a line. We look forward to serving you!

@@ -89,6 +89,16 @@ body {
   margin-bottom: 10px;
 }
 
+.service {
+  height: 700px;
+  margin-bottom: 10px;
+}
+
+.desc {
+  height: 150px;
+}
+
+
 @media only screen and (max-width: 900px) {
   .aboutMe {
     padding-left: 10px;
