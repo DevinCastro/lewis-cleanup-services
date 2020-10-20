@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/lewis-cleanup-services/precache-manifest.2f5500168c2ddc8789ea200bd254b85b.js"
+  "/lewis-cleanup-services/precache-manifest.67b74b8ac62407523dae903b29a1b218.js"
 );
 
 self.addEventListener('message', (event) => {
