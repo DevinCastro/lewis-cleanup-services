@@ -34,7 +34,7 @@ const Home = () => {
         
       
       
-        <h1 className="lewis animate__animated animate__fadeIn">Lewis Cleanup Services</h1>
+        <h1 className="lewis animate__animated animate__fadeIn">Lewis Clean-up Services</h1>
       
 
         <div className="text-center">
@@ -50,7 +50,7 @@ const Home = () => {
             <p className="aboutMe">Lewis Clean-up Services is "Your One Stop Shop" for getting a home ready to market whether it be for sale or lease. We will come in and clear out any trash, junk or debris and haul it away. We will do interior cleaning, exterior cleaning, pressure washing, window cleaning, solar panel cleaning and give the yard a face lift and monthly yard maintenance until close of escrow or until it is leased.  
             </p>
             <h3>How We Got Started</h3>
-            <p className="aboutMe">Like many people, when the pandemic hit and me and my husband both lost our jobs, we knew we needed to hustle and get something going for ourselves. When I used to be a Brokers Assistant at a local Real Estate office for 7+ years, I had a side business cleaning vacant houses and window cleaning along with trash outs and yard cleanup getting the home ready for sale. I took that experience and created a broader business by adding Solar Panel Cleaning and Pressure Washing. While I was in the Real Estate Industry for 7+ years I learned a lot about what it takes to help a home sell faster and I have implimented that into turning what was once a side job, into our family's new career. We are a family owned and operated small business and we take pride in teaching our children the skills of hard work just as my father did with me and my siblings. In today's times, my husband and I want our children to be prepared for their future in the work force as we where for ours.
+            <p className="aboutMe">Like many people when the pandemic hit, my husband and I both lost our jobs We knew we needed to hustle and get something going for ourselves. When I used to be a Brokers Assistant at a local Real Estate office for 7+ years, I had a side business cleaning vacant houses and window cleaning along with trash outs and yard cleanup getting the home ready for sale. I took that experience and created a broader business by adding Solar Panel Cleaning and Pressure Washing. While I was in the Real Estate Industry for 7+ years I learned a lot about what it takes to help a home sell faster and I have implemented that into turning what was once a side job, into our family's new career. We are a family owned and operated small business and we take pride in teaching our children the skills of hard work just as my father did with me and my siblings. In today's times, my husband and I want our children to be as prepared for their future in the work force as we were for ours.
             </p>
           </div>
         </div>
@@ -228,7 +228,7 @@ const Home = () => {
 
       <a name='contact'></a>
       <div className="green text-center">
-        <h1>Contact Us</h1>
+        <h1>Get A Free Quote</h1>
         <p className="contact">
           Have a question about our services? To get a free quote, or if you have questions or special requests, just drop us a line. We look forward to serving you!
         </p>
