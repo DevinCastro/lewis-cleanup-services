@@ -12,22 +12,26 @@ import {
 
 
 
-const Project = props => {
+const Service = props => {
 
-  const items = [
-    {
-      src: props.photo1,
+  // const items = [
+  //   {
+  //     src: props.photo1,
      
-    },
-    {
-      src: props.photo2,
+  //   },
+  //   {
+  //     src: props.photo2,
       
-    },
-    {
-      src: props.photo3,
+  //   },
+  //   {
+  //     src: props.photo3,
       
-    }
-  ];
+  //   }
+  // ];
+
+  const items = props.pics.map(photo => ({ src: photo }))
+
+  // console.log(props.pics)
 
   const text = props.moreDetails
 
@@ -91,7 +95,7 @@ const Project = props => {
             <div className="cardText">
               <div className="desc">
 
-                <h1>{props.name}</h1>
+                <h5>{props.name}</h5>
                 <p>{props.description}</p>
               </div>
 
@@ -138,4 +142,4 @@ const Project = props => {
   )
 }
 
-export default Project
+export default Service

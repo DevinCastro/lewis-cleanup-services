@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 import Home from './pages/Home'
-import logo from './logos/logo7.png'
+import logo from './logos/finalLogo.png'
 
 import {
   Collapse,
@@ -21,23 +20,17 @@ const App = () => {
 
   return (
     <>
-     {/* <Router> */}
     
       <nav>
+        <img
+          src={logo}
+          className="navLogo float-right"
+          alt="React Bootstrap logo"
+        />
         <Navbar light expand="md">
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
             <Nav className="mr-auto" navbar>
-              {/* <NavItem>
-                <img
-                  src={logo}
-                  width="80"
-                  height="80"
-                  className="d-inline-block align-top"
-                  alt="React Bootstrap logo"
-                  to="/"
-                />
-              </NavItem> */}
               <NavItem>
                 <a className="myNav" href="#about">About Us</a>
               </NavItem>
@@ -53,15 +46,7 @@ const App = () => {
             </Nav>
           </Collapse>
         </Navbar>
-        {/* <Switch>
-          <Route exact path="/react-portfolio" component={Home} />
-          <Route path="/myPortfolio" component={Portfolio} />
-          <Route path="/contactMe" component={Contact} />
-        </Switch> */}
       </nav>
-
-     
-     {/* </Router> */}
     <Home />
     </>
   )
