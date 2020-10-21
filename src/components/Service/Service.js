@@ -111,7 +111,7 @@ const Service = props => {
               </Carousel>
 
 
-            <Button onClick={toggle}>More Details</Button>
+            <Button className="myBtn" onClick={toggle}>More Details</Button>
             </div>
           </div>
 

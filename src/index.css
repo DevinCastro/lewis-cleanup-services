@@ -111,6 +111,16 @@ body {
   max-height: 300px;
 }
 
+.myBtn {
+  background-color: rgb(255, 255, 119);
+  color: black;
+}
+.myBtn:hover {
+  background-color: rgb(194, 194, 94);
+}
+
+
+
 @media only screen and (max-width: 900px) {
   .aboutMe {
     padding-left: 10px;
@@ -125,6 +135,9 @@ body {
     margin-right: 10px;
   }
 }
+
+
+
 
 @media only screen and (max-width: 500px) {
   .aboutMe {
