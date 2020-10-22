@@ -40,12 +40,12 @@ const Home = () => {
 
 
 
-        <h1 className="lewis animate__animated animate__fadeIn">Lewis Clean-up Services</h1>
+        {/* <h1 className="lewis animate__animated animate__fadeIn">Lewis Clean-up Services</h1> */}
 
 
-        <div className="text-center">
+        <div className="chris text-center">
 
-          <img className="cleaner animate__animated animate__fadeIn" src={cleaner} alt="cleaner" />
+          <img className="logo animate__animated animate__fadeIn" src={logo} alt="logo" />
 
         </div>
 
