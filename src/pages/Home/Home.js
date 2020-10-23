@@ -244,7 +244,7 @@ const Home = () => {
               Phone:
             </p>
             <p>
-              (951) 385-9635
+              <a href="tel:9513859635">(951) 385-9635</a>
             </p>
 
             <h4>Proud members of</h4>
