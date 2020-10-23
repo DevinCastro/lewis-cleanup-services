@@ -23,6 +23,7 @@ body {
 
 .phone {
   margin-top: 8px;
+  margin-right: 5px;
 }
 
 .myNav::before {
