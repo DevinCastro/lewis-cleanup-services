@@ -27,7 +27,7 @@ const App = () => {
           className="navLogo float-right"
           alt="React Bootstrap logo"
         /> */}
-            <a className="float-right" href="tel:9513859635">Call us at (951) 385-9635</a>
+            <a className="float-right phone" href="tel:9513859635">Call us at (951) 385-9635</a>
         <Navbar light expand="md">
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>

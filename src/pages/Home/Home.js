@@ -64,6 +64,7 @@ const Home = () => {
         <a name='gallery'></a>
         <div>
           <Jumbotron className="jumbotron text-center">
+            <img className="cleaner2" src={cleaner} alt="cleaner"/>
             <h1>Services</h1>
             <Row>
               <Col lg='4'>

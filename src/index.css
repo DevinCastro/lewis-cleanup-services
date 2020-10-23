@@ -21,6 +21,10 @@ body {
   margin-top: -20px;
 }
 
+.phone {
+  margin-top: 8px;
+}
+
 .myNav::before {
   content: "";
   position: absolute;
@@ -58,9 +62,13 @@ body {
   right: 0px;
   bottom: 0px;
   left: 0px;
-  opacity: 0.75;
+  opacity: 0.65;
+}
 
-  
+.cleaner2 {
+  height: 75px;
+  width: 75px;
+  margin-top: -40px;
 }
 
 .lewis {
@@ -174,5 +182,17 @@ body {
   }
   .chris {
     height: 250px;
+  }
+  .cleaner2 {
+    margin-top: -25px;
+  }
+  .photo{
+    height: 300px;
+  }
+  .service {
+    height: 530px;
+  }
+  .desc {
+    height: 160px;
   }
 }
