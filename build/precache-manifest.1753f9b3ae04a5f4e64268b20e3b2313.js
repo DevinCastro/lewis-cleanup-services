@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "be8d28a172a8171b4386319a6875ec38",
+    "revision": "3bb50bf817dcd613f5159d174b2a3727",
     "url": "/lewis-cleanup-services/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lewis-cleanup-services/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "30c5e7b384ab424b6bf4",
-    "url": "/lewis-cleanup-services/static/css/main.762a48d8.chunk.css"
+    "revision": "d49022259c33cbd3f9a9",
+    "url": "/lewis-cleanup-services/static/css/main.35fb1a8a.chunk.css"
   },
   {
     "revision": "39a6d4dc372ec5316002",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lewis-cleanup-services/static/js/2.e5d78aa3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "30c5e7b384ab424b6bf4",
-    "url": "/lewis-cleanup-services/static/js/main.9cb876ee.chunk.js"
+    "revision": "d49022259c33cbd3f9a9",
+    "url": "/lewis-cleanup-services/static/js/main.897369d7.chunk.js"
   },
   {
     "revision": "9a93d24f3ae15459b7bf",
@@ -66,6 +66,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b24479c3eec04a6aede70b64fa1a2ecf",
     "url": "/lewis-cleanup-services/static/media/chamber.b24479c3.png"
+  },
+  {
+    "revision": "9cf5da496846f0ddc476876575a53599",
+    "url": "/lewis-cleanup-services/static/media/chris.9cf5da49.jpeg"
   },
   {
     "revision": "69ffa712a992486e6e5ac9f90efbca0b",
