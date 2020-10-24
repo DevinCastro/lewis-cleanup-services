@@ -23,6 +23,10 @@ import photo15 from '../../lewisphotos/6.jpeg'
 import photo16 from '../../lewisphotos/7.jpg'
 import photo17 from '../../lewisphotos/8.jpg'
 import photo18 from '../../lewisphotos/9.jpg'
+import vacant1 from '../../lewisphotos/vacant1.jpeg'
+import vacant2 from '../../lewisphotos/vacant2.jpeg'
+import vacant3 from '../../lewisphotos/vacant3.jpeg'
+import yard1 from '../../lewisphotos/Raking-Cover.jpg'
 import logo from '../../logos/finalLogo.png'
 import chamber from '../../lewisphotos/chamber.png'
 
@@ -155,7 +159,7 @@ const Home = () => {
                     "Prices vary depending on size and condition it's in.", <br />, <br />,
 
                     "Extra Charge: GARAGE - Remove cobwebs, sweep, wipe out cabinets and shelves and hose down"]}
-                  pics={[logo]}
+                  pics={[vacant1,vacant2,vacant3]}
 
                 />
               </Col>
@@ -170,7 +174,7 @@ const Home = () => {
                     'Cleaning up branches', <br />,
                     'Cleaning up lawn debris', <br />,
                     'Cutting the grass']}
-                  pics={[logo]}
+                  pics={[yard1]}
 
                 />
               </Col>
