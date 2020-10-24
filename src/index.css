@@ -79,6 +79,8 @@ body {
 
 .logo {
   width: 300px;
+  float: right;
+  margin-right: 150px;
 }
 
 .green {
@@ -187,7 +189,7 @@ body {
   .cleaner2 {
     margin-top: -25px;
   }
-  .photo{
+  .photo {
     height: 300px;
   }
   .service {
@@ -195,5 +197,10 @@ body {
   }
   .desc {
     height: 160px;
+  }
+  .logo {
+    width: 200px;
+    float: none;
+    margin-right: 0px;
   }
 }
