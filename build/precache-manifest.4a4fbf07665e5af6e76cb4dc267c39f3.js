@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3bb50bf817dcd613f5159d174b2a3727",
+    "revision": "a61740796a84e0b8fb8b13dd28aa1219",
     "url": "/lewis-cleanup-services/index.html"
   },
   {
-    "revision": "39a6d4dc372ec5316002",
+    "revision": "a02f1ff2527807673a2b",
     "url": "/lewis-cleanup-services/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "d49022259c33cbd3f9a9",
-    "url": "/lewis-cleanup-services/static/css/main.35fb1a8a.chunk.css"
+    "revision": "075171ba1a9116ed41b7",
+    "url": "/lewis-cleanup-services/static/css/main.253063c6.chunk.css"
   },
   {
-    "revision": "39a6d4dc372ec5316002",
-    "url": "/lewis-cleanup-services/static/js/2.e5d78aa3.chunk.js"
+    "revision": "a02f1ff2527807673a2b",
+    "url": "/lewis-cleanup-services/static/js/2.c90fd84d.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/lewis-cleanup-services/static/js/2.e5d78aa3.chunk.js.LICENSE.txt"
+    "url": "/lewis-cleanup-services/static/js/2.c90fd84d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d49022259c33cbd3f9a9",
-    "url": "/lewis-cleanup-services/static/js/main.897369d7.chunk.js"
+    "revision": "075171ba1a9116ed41b7",
+    "url": "/lewis-cleanup-services/static/js/main.ceb94521.chunk.js"
   },
   {
     "revision": "9a93d24f3ae15459b7bf",
@@ -62,6 +62,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a254858cba3ee22d10f8a3e94b60efee",
     "url": "/lewis-cleanup-services/static/media/9.a254858c.jpg"
+  },
+  {
+    "revision": "145ea24c63ad3124d463c06b60e820a3",
+    "url": "/lewis-cleanup-services/static/media/Raking-Cover.145ea24c.jpg"
   },
   {
     "revision": "b24479c3eec04a6aede70b64fa1a2ecf",
@@ -114,5 +118,17 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3f3c9fb40191263b908a5728157911e8",
     "url": "/lewis-cleanup-services/static/media/unnamed.3f3c9fb4.jpg"
+  },
+  {
+    "revision": "1b11788f4006d486fbdd2f8abac34a2f",
+    "url": "/lewis-cleanup-services/static/media/vacant1.1b11788f.jpeg"
+  },
+  {
+    "revision": "36f9dfbcee1406c37fed4d771376125f",
+    "url": "/lewis-cleanup-services/static/media/vacant2.36f9dfbc.jpeg"
+  },
+  {
+    "revision": "62ba32276e310291f8df1c1da5a957b8",
+    "url": "/lewis-cleanup-services/static/media/vacant3.62ba3227.jpeg"
   }
 ]);
