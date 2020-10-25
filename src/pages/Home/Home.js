@@ -46,6 +46,7 @@ const Home = () => {
 
         {/* <h1 className="lewis animate__animated animate__fadeIn">Lewis Clean-up Services</h1> */}
 
+        <h1>Spencer was here</h1>
 
         <div className="chris text-center">
 
