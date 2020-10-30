@@ -23,6 +23,13 @@ import photo15 from '../../lewisphotos/6.jpeg'
 import photo16 from '../../lewisphotos/7.jpg'
 import photo17 from '../../lewisphotos/8.jpg'
 import photo18 from '../../lewisphotos/9.jpg'
+import photo19 from '../../lewisphotos/10.jpg'
+import photo20 from '../../lewisphotos/11.jpeg'
+import photo21 from '../../lewisphotos/12.jpeg'
+import photo22 from '../../lewisphotos/13.jpeg'
+import photo23 from '../../lewisphotos/14.jpeg'
+import photo24 from '../../lewisphotos/15.jpeg'
+import photo25 from '../../lewisphotos/16.jpeg'
 import vacant1 from '../../lewisphotos/vacant1.jpeg'
 import vacant2 from '../../lewisphotos/vacant2.jpeg'
 import vacant3 from '../../lewisphotos/vacant3.jpeg'
@@ -43,16 +50,13 @@ const Home = () => {
     <>
       <section>
 
-
-
-        {/* <h1 className="lewis animate__animated animate__fadeIn">Lewis Clean-up Services</h1> */}
-
-
         <div className="chris text-center">
 
           <img className="logo animate__animated animate__fadeIn" src={logo} alt="logo" />
 
         </div>
+
+
 
         <a name='about'></a>
         <div className="green text-center">
@@ -69,7 +73,7 @@ const Home = () => {
         <a name='gallery'></a>
         <div>
           <Jumbotron className="jumbotron text-center">
-            <img className="cleaner2" src={cleaner} alt="cleaner"/>
+            <img className="cleaner2" src={cleaner} alt="cleaner" />
             <h1>Services</h1>
             <Row>
               <Col lg='4'>
@@ -77,7 +81,7 @@ const Home = () => {
                   name="Solar Panel Cleaning"
                   description="Cleaning at regular intervals prevents buildup of residue and keeps your panels operating optimally at all times."
                   moreDetails={['Increases efficiency by 15-45%.', <br />, <br />, 'Cleaning with pure water is one of the safest, most effective and fastest methods in professional solar cleaning. Demineralized water is obtained by one of the UNGER filter systems by deionization or reverse osmosis. Waterfed brushes loosen the dirt and remove it with the pure water.Services include: Cleaning each Solar Panel and the edges of each panel']}
-                  pics={[photo7, photo8, photo9, photo16, photo17, photo18, photo3, photo5, photo12]}
+                  pics={[photo7, photo8, photo9, photo16, photo17, photo18, photo3, photo5, photo12, photo20]}
 
                 />
               </Col>
@@ -95,7 +99,7 @@ const Home = () => {
                     "Decks", < br />,
                     "Fences", <br />,
                     "Playground Equipment"]}
-                  pics={[photo13, photo14, photo15]}
+                  pics={[photo13, photo14, photo15, photo21, photo24, photo22, photo23, photo25 ]}
 
                 />
               </Col>
@@ -160,7 +164,7 @@ const Home = () => {
                     "Prices vary depending on size and condition it's in.", <br />, <br />,
 
                     "Extra Charge: GARAGE - Remove cobwebs, sweep, wipe out cabinets and shelves and hose down"]}
-                  pics={[vacant1,vacant2,vacant3]}
+                  pics={[vacant1, vacant2, vacant3]}
 
                 />
               </Col>
@@ -183,53 +187,9 @@ const Home = () => {
 
 
 
-
-
-
           </Jumbotron>
         </div>
 
-        {/* 
-        <a name='gallery'></a>
-        <div>
-          <Jumbotron className="gallery text-center">
-            <h1>Photo Gallery</h1>
-            <Row>
-              <Col md='4'>
-                <img className="photo" src={photo1} alt="photo"/>
-              </Col>
-              <Col md='4'>
-                <img className="photo" src={photo2} alt="photo" />
-              </Col>
-              <Col md='4'>
-                <img className="photo" src={photo4} alt="photo" />
-              </Col>
-            </Row>
-            <Row>
-              <Col md='4'>
-                <img className="photo" src={photo3} alt="photo" />
-              </Col>
-              <Col md='4'>
-                <img className="photo" src={photo5} alt="photo" />
-              </Col>
-              <Col md='4'>
-                <img className="photo" src={photo6} alt="photo"/>
-              </Col>
-            </Row>
-            <Row>
-              <Col md='4'>
-                <img className="photo" src={photo7} alt="photo"/>
-              </Col>
-              <Col md='4'>
-                <img className="photo" src={photo8} alt="photo"/>
-              </Col>
-              <Col md='4'>
-                <img className="photo" src={photo9} alt="photo"/>
-              </Col>
-            </Row>
-
-          </Jumbotron>
-        </div> */}
 
         <a name='contact'></a>
         <div className="green text-center">
@@ -239,23 +199,32 @@ const Home = () => {
             <p>
               Have a question about our services? To get a free quote, or if you have questions or special requests, just drop us a line. We look forward to serving you!
             </p>
-            <p>
-              Email:
-            </p>
-            <p>
-              <a href="mailto:LewisCleanupServices@gmail.com"><p>LewisCleanupServices@gmail.com</p></a>
-            </p>
-            <p>
-              Phone:
-            </p>
-            <p>
-              <a href="tel:9513859635">(951) 385-9635</a>
-            </p>
+            <Row>
+              <Col md='4'>
+                <img className="facebook" src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-email-512.png" alt="email"></img>
+
+                <a href="mailto:LewisCleanupServices@gmail.com"><p>LewisCleanupServices@gmail.com</p></a>
+
+              </Col>
+              <Col md='4'>
+                
+                <img className="phone" src="https://assets.stickpng.com/thumbs/5a4525b2546ddca7e1fcbc82.png" alt="phone"></img>
+                <p>
+                  <a href="tel:9513859635">(951) 385-9635</a>
+                </p>
+              </Col>
+              <Col md='4'>
+                <a href="https://www.facebook.com/lana.lewis.9421">
+                  <img className="facebook" src="https://cdn.iconscout.com/icon/free/png-512/facebook-social-media-fb-logo-square-44659.png" alt="facebook"></img>
+                </a>
+              </Col>
+            </Row>
+
 
             <h4>Proud members of</h4>
-            
-            <img className="chamber" src={chamber} alt="chamber"/>
-            <img className="chamber" src='https://i1.wp.com/www.digitaladvisingsolutions.com/wp-content/uploads/2019/06/alignable.png?fit=1867%2C621&ssl=1' alt="chamber"/>
+
+            <img className="chamber" src={chamber} alt="chamber" />
+            <img className="chamber" src='https://i1.wp.com/www.digitaladvisingsolutions.com/wp-content/uploads/2019/06/alignable.png?fit=1867%2C621&ssl=1' alt="chamber" />
 
           </div>
         </div>

@@ -20,14 +20,10 @@ const App = () => {
 
   return (
     <>
-    
+
       <nav>
-        {/* <img
-          src={logo}
-          className="navLogo float-right"
-          alt="React Bootstrap logo"
-        /> */}
-            <a className="float-right phone" href="tel:9513859635">Call us at (951) 385-9635</a>
+
+        <a className="float-right call" href="tel:9513859635">Call us at (951) 385-9635</a>
         <Navbar light expand="md">
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
@@ -43,12 +39,12 @@ const App = () => {
               <NavItem>
                 <a className="myNav" href="#contact">Contact</a>
               </NavItem>
-              
+
             </Nav>
           </Collapse>
         </Navbar>
       </nav>
-    <Home />
+      <Home />
     </>
   )
 }
