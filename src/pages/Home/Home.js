@@ -26,7 +26,8 @@ import photo18 from '../../lewisphotos/9.jpg'
 import vacant1 from '../../lewisphotos/vacant1.jpeg'
 import vacant2 from '../../lewisphotos/vacant2.jpeg'
 import vacant3 from '../../lewisphotos/vacant3.jpeg'
-import yard1 from '../../lewisphotos/Raking-Cover.jpg'
+import yard1 from '../../lewisphotos/rakebefore.jpg'
+import yard2 from '../../lewisphotos/rakeafter.jpg'
 import logo from '../../logos/finalLogo.png'
 import chamber from '../../lewisphotos/chamber.png'
 
@@ -174,7 +175,7 @@ const Home = () => {
                     'Cleaning up branches', <br />,
                     'Cleaning up lawn debris', <br />,
                     'Cutting the grass']}
-                  pics={[yard1]}
+                  pics={[yard1, yard2]}
 
                 />
               </Col>
