@@ -99,7 +99,7 @@ const Home = () => {
                     "Decks", < br />,
                     "Fences", <br />,
                     "Playground Equipment"]}
-                  pics={[photo13, photo14, photo15, photo21, photo24, photo22, photo23, photo25 ]}
+                  pics={[ photo21, photo24, photo22, photo23, photo25, photo19 ]}
 
                 />
               </Col>
